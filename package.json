@@ -1,0 +1,30 @@
+{
+  "name": "js-studying",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aieff/node-js-studying.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Aieff/node-js-studying/issues"
+  },
+  "homepage": "https://github.com/Aieff/node-js-studying#readme",
+  "dependencies": {
+    "fastify": "^5.6.2",
+    "postgres": "^3.4.7"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
